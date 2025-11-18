@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosConfig = axios.create({
-  baseURL: "https://pashupatibackend1.onrender.com/api",
+  baseURL: "http://localhost:3000/api",
   withCredentials: true,
   headers: { "Content-Type": "application/json" },
 });
