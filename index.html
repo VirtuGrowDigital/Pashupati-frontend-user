@@ -11,6 +11,7 @@
 	<link rel="icon" type="image/png" href="src/assets/logo.png">
 	<link href="https://fonts.googleapis.com/css2?family=Adelle+Sans&display=swap" rel="stylesheet">
 	<meta name="google-site-verification" content="c5_9Q3BBNN9FupcVEn3ghNF67IdB9H2aEAv99zkH6QY" />
+
 	<title>Best Cooking Oil Company in Lucknow - Pashupati Food | Top Oil Brands</title>
 	<meta name="title" content="Best Cooking Oil Company in Lucknow - Pashupati Food | Top Oil Brands">
 	<meta name="description"
@@ -49,7 +50,6 @@
 }
 </script>
 
-
 	<link rel="canonical" href="https://pashupatifood.com/" />
 
 	<script type="application/ld+json">
@@ -62,8 +62,7 @@
 			"name": "Who is Pashupati Food & Agro?",
 			"acceptedAnswer": {
 				"@type": "Answer",
-				"text": "Pashupati Food & Agro is a leading food brand in Lucknow known for pure, wood-pressed cooking oils and premium rice products.
-"
+				"text": "Pashupati Food & Agro is a leading food brand in Lucknow known for pure, wood-pressed cooking oils and premium rice products."
 			}
 		},
 		{
@@ -102,13 +101,40 @@
 }
 </script>
 
-
 	<title>Pashupati Foods</title>
+
+	<style>
+		.lazy-img {
+			filter: blur(12px);
+			transition: filter 0.35s ease-out;
+		}
+		.lazy-img-loaded {
+			filter: blur(0);
+		}
+	</style>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", () => {
+			const lazyImages = document.querySelectorAll("img");
+
+			lazyImages.forEach((img) => {
+				img.setAttribute("loading", "lazy");
+				img.classList.add("lazy-img");
+
+				img.addEventListener("load", () => {
+					img.classList.remove("lazy-img");
+					img.classList.add("lazy-img-loaded");
+				});
+			});
+		});
+	</script>
+
 </head>
 
 <body>
 	<div id="root"></div>
 	<script type="module" src="/src/main.jsx"></script>
+
 	<script type="text/javascript">
 		(function (l) {
 			if (l.search[1] === "/") {
@@ -119,6 +145,7 @@
 						return s.replace(/~and~/g, "&");
 					})
 					.join("?");
+
 				window.history.replaceState(
 					null,
 					null,
@@ -127,8 +154,8 @@
 			}
 		})(window.location);
 	</script>
-	<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
+	<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </body>
 
 </html>
