@@ -30,7 +30,7 @@ const ProfilePage = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Navbar */}
-            <nav className="fixed left-0 right-0 top-0 z-50 flex justify-between items-center px-4 py-3 sm:px-6 md:px-10 lg:px-20 bg-white shadow-md max-w-[1600px] mx-auto">
+            <nav className="fixed left-0 right-0 top-0 z-50 flex justify-between items-center px-4 py-3 sm:px-6 md:px-10 lg:px-20 bg-white shadow-md max-w-full mx-auto">
 
                 <div className="flex items-center gap-4 sm:gap-6">
 
