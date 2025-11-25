@@ -98,9 +98,9 @@ function App() {
 
                 {/* Rest of Homepage */}
                 <div className="bg-[#5E7141] w-full min-h-screen pt-32">
+                  <ProductSection />
                   <ExperienceSection />
                   <QualitySection />
-                  <ProductSection />
                   <VideoSection />
                   <WhyChooseUs />
                   <Testimonials />
