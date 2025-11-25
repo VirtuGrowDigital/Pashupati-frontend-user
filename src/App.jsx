@@ -20,6 +20,7 @@ import SignPage from "./components/SignPage";
 import AddToCart from './components/AddTOcart';
 import CheckOutPage from "./components/CheckOutPage";
 import BulkOrderPage from "./components/BulkOrderPage";
+import OurVision from "./components/OurVision";
 
 // ✅ Scroll handler for Bulk Order + Contact
 const ScrollHandler = () => {
@@ -103,6 +104,7 @@ function App() {
                   <QualitySection />
                   <VideoSection />
                   <WhyChooseUs />
+                  <OurVision /> 
                   <Testimonials />
                 </div>
               </div>
