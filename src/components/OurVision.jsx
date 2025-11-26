@@ -15,7 +15,7 @@ const OurVision = () => {
             className="text-4xl md:text-5xl font-extrabold text-yellow-400"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            OUR <span className="text-white">VISION</span>
+            OUR <span className="text-white">STORY</span>
           </h2>
 
           {/* Subtitle */}

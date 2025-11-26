@@ -57,7 +57,8 @@ const TestimonialsSection = () => {
           extraClass="md:mt-30" // 👈 only offset on desktop
         />
         <TestimonialCard
-          image={user3}
+          image={user3} 
+          
           text="Amazing quality, consistent taste, and reliable service. We’ve been customers for years and will continue to be."
         />
       </div>
